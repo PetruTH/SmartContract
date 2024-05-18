@@ -8,10 +8,6 @@ import EventSubject from "./Observer";
 
 export default function Profile () {
     const eventSubject = new EventSubject();
-    // eventSubject.on("click", (data) => {
-    //     console.log("Click event received:", data);
-    //   });
-    //   eventSubject.emit("click", "alt string?");
     const [data, updateData] = useState([]);
     const [dataFetched, updateFetched] = useState(false);
     const [address, updateAddress] = useState("0x");

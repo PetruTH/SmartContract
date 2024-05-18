@@ -34,6 +34,7 @@ async function getAddress() {
     updateAddress(addr);
     updateButton();
     console.log(signer.getAddress());
+    window.location.reload();
   }
   
 

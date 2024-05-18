@@ -1,6 +1,9 @@
 const { expect } = require("chai");
 const { ethers } = require("hardhat");
 
+
+// npx hardhat test -> to run tests
+
 describe("NFTMarketplace", function () {
   it("Contract name dummy test", async function () {
     
